@@ -99,7 +99,7 @@ export default function Account({ session }: { session: Session }) {
 
       <View style={[styles.verticallySpaced, styles.mt20]}>
         <Button
-          title={loading ? 'Carregando ...' : 'Atualizar'}
+          title={loading ? 'Carregando ...' : 'Cadastrar'}
           onPress={() => updateProfile({ username, website, avatar_url: avatarUrl })}
           disabled={loading}
         />
